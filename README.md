@@ -32,6 +32,7 @@ Many alarm applications already exist to help a user wake up at a certain time i
 1. Install Android Studio
 2. Download the Zip Version of this application, extract the contents into a directory of your choosing.
 3. Utilize a Device with `API Version 29`
+4. Build and Run the Project!
 
 ### Screenshots of the Application
 
