@@ -18,9 +18,13 @@ Many alarm applications already exist to help a user wake up at a certain time i
 - We intend to use environmental systems to determine the light levels in the room to check if a user has turned on the lights.
 - We also intend to use a microphone to allow the user to record unique audio for their alarm sounds
 - A step counter sensor will be used to determine the number of steps a user has taken
-  **Why and how will data be stored?**
+
+**Why and how will data be stored?**
+
 - We plan to use a database to store any user statistics and internal storage for any custom wake up sounds the user uploads/records
-  **What functionality does your app present to an end user?**
+
+**What functionality does your app present to an end user?**
+
 - The main functionality our app presents users is a unique and possibly fun way to wake them up in the morning. Our app targets both light and heavy sleepers by providing wake up options that range from simply turning off the alarm by the press of a button to a physical activity that would wake even the most heavy of sleepers
 
 ### How to Build
