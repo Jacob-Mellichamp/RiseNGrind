@@ -33,6 +33,6 @@ Many alarm applications already exist to help a user wake up at a certain time i
 
 ![Landing Page](./documentation/Screenshots/ScreenShot_Landing.png)
 
-![User Settings](./documentation/Screenshots/ScreenShot_Landing.png)
+![User Settings](./documentation/Screenshots/UserSettings.png)
 
-![User Stats](./documentation/Screenshots/ScreenShot_Landing.png)
+![User Stats](./documentation/Screenshots/UserStats.png)
