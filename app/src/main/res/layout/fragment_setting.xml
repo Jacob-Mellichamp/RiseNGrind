@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boat"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/setting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:textColor="@color/white"
+        android:text="@string/user_preferences_title"
+        android:textSize="30sp" />
+
+
+    <LinearLayout
+        android:id="@+id/wake_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:background="@drawable/rectangle_border"
+        android:orientation="horizontal"
+
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/Wake_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/wake_up_Title"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/wake_spinner"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingRight="10dp"
+            android:theme="@style/Theme.Spinner"
+
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/sound_setting"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:id="@+id/sound_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_title"
+        android:background="@drawable/rectangle_border"
+
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/Sound_Time_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Wake_Title"
+            android:gravity="center_horizontal"
+            android:text="@string/gradual_sound_time_minutes"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Sound_Time_Title"
+            android:layout_centerHorizontal="true"
+            android:max="5"
+            android:progress="5"
+            android:scrollbarSize="8dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="left" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_gravity="right"
+                    android:text="5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+

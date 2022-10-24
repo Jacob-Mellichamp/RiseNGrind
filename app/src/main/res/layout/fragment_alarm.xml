@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/sunrise">
+
+    <LinearLayout
+        android:id="@+id/section_fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+        <LinearLayout
+            android:id="@+id/section_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_editAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="btn_editAlarmOnClick"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/ic_edit_white"
+                android:layout_weight="1"
+                tools:ignore="VectorDrawableCompat"
+                android:contentDescription="@string/delete_alarm_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:paddingTop ="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:background="@drawable/rectangle_border"
+                android:text="@string/alarm_page"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/addAlarmButton"
+                android:layout_width="wrap_content"
+                android:layout_height="67dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="addAlarm_OnClick"
+                android:src="@drawable/ic_add_white"
+                android:contentDescription="@string/add_alarm_button" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/alarm_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

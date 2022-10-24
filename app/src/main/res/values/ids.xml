@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_cancel" type="id"></item>
+    <item name="txt_addalarm" type="id"></item>
+    <item name="btn_addAlarm_activity" type="id"></item>
+    <item name="sec_recurring" type="id" />
+    <item name="check_recurring" type="id" />
+    <item name="layout_weekdays" type="id" />
+    <item name="check_mon" type="id" />
+    <item name="fragment_createalarm_timePicker" type="id" />
+    <item name="check_tue" type="id" />
+    <item name="check_wed" type="id" />
+    <item name="check_thu" type="id" />
+    <item name="check_fri" type="id" />
+    <item name="layout_weekends" type="id" />
+    <item name="check_sat" type="id" />
+    <item name="check_sun" type="id" />
+</resources>

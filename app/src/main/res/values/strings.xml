@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">RiseNGrind</string>
+    <string name="user_preferences_title">User Preferences</string>
+    <string name="wake_up_Title">Wake Up Method</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="fri">Fri</string>
+    <string name="thu">Thu</string>
+    <string name="wed">Wed</string>
+    <string name="tue">Tue</string>
+    <string name="mon">Mon</string>
+    <string name="time_to_rise_n_grind">Time to Rise N\' Grind!</string>
+
+
+    <string-array name="wake_type_list">
+        <item> Button </item>
+        <item> Phone-Shake </item>
+        <item> Light </item>
+        <item> Walk </item>
+    </string-array>
+
+    <string name="current_progress">Current Progress</string>
+    <string name="walk_50_steps">Walk 50 steps</string>
+    <string name="steps_walked">Steps walked:</string>
+    <string name="shake_the_device">Shake the Device!</string>
+    <string name="reach_the_light_value_75">Reach the light value: 75</string>
+    <string name="current_light_value">Current light value:</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="delete_alarms">Delete Alarms</string>
+    <string name="done">Done</string>
+    <string name="alarm_page">Alarm Page</string>
+    <string name="add_alarm_button">Add alarm button</string>
+    <string name="delete_alarm_button">Delete alarm button</string>
+    <string name="earliest_wake">Earliest Wake:</string>
+    <string name="average_wake">Average Wake:</string>
+    <string name="None">None</string>
+    <string name="statistics">Statistics</string>
+    <string name="alarms">Alarms</string>
+    <string name="settings">Settings</string>
+    <string name="turn_off_alarm">Turn Off Alarm</string>
+    <string name="gradual_sound_time_minutes">Gradual Sound Time (minutes)</string>
+    <string name="add_alarm">Add Alarm</string>
+</resources>
